@@ -2,10 +2,10 @@
 This project is a "phông bạt" (Tinhorn - fake) code that I found on a Facebook group. It demonstrates how to generate a series of random commits in a Git repository. This project uses some popular Node.js libraries, such as random and simple-git, to automate Git operations and create fake commit histories.
 
 ## Libraries Used
-random: A library for generating random numbers, used here to calculate random weeks and days for generating commit dates.
-simple-git: A lightweight library for working with Git commands. It simplifies adding files, committing changes, and pushing them to a remote repository.
-moment: A library for manipulating and formatting dates. It is used to calculate random commit dates between two specific points in time.
-jsonfile: A library for reading and writing JSON files. This is used to update the data.json file with the generated commit information.
+1. random: A library for generating random numbers, used here to calculate random weeks and days for generating commit dates.
+2. simple-git: A lightweight library for working with Git commands. It simplifies adding files, committing changes, and pushing them to a remote repository.
+3. moment: A library for manipulating and formatting dates. It is used to calculate random commit dates between two specific points in time.
+4. jsonfile: A library for reading and writing JSON files. This is used to update the data.json file with the generated commit information.
 
 ## Prerequisites
 - Node.js installed on your computer.
